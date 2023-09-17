@@ -16,7 +16,7 @@ Menu::Menu(float width, float height)
 	menu[1].setFont(font);
 	//menu[1].setCharacterSize(72);
 	menu[1].setFillColor(sf::Color::White);
-	menu[1].setString("Leaderboard");
+	menu[1].setString("High score");
 	menu[1].setOrigin(menu[1].getLocalBounds().width / 2, menu[1].getLocalBounds().height / 2);
 	menu[1].setPosition(sf::Vector2f(width / 1.45, height / (MAX_ITEMS + 0.5) * 2));
 
